@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="static/assets/css/form.css">
+
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--<title>Responsive Regisration Form </title>-->
+</head>
+<body>
+    <div class="container">
+        <header>Ideal Offer Prediction</header>
+
+        <form action="{{ url_for('predict')}}" method="post">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Movie Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label for="moviename">Movie Name</label>
+                            <input type="text" id="moviename" name="moviename"placeholder="Enter moviename" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">Features</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label for="ticket_cost">ticket_cost</label>
+                            <input type="text" id="ticket_cost" name="ticket_cost" placeholder="Enter ticket_cost" required>
+                        </div>
+                        <div class="input-field">
+                            <label for="sales">Expected sales</label>
+                            <input type="text" id="sales" name="sales" placeholder="Enter sales" required>
+                        </div>
+                    </div>
+
+
+
+                    <div class="buttons">
+                        <button class="sumbit">
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="static/assets/js/form.js"></script>
+</body>
+</html>
