@@ -1,5 +1,12 @@
 # Movie Analytics
 Movie Analytics is a web-based project that provides a comprehensive solution for movie booking and analysis. The project has a landing page that provides two options for clients to book a movie and for admin to view analytics.
+
+## Demo
+
+https://user-images.githubusercontent.com/63944541/223365547-510262fc-150f-4c76-b097-f9fbe44e2c74.mp4
+
+
+
 This project offers a full solution for movie analytics, with a landing page, client page, and admin 
 
 **The landing page provides two options for the users - client to book a movie and admin to view analytics.**
